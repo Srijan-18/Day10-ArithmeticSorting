@@ -8,3 +8,9 @@ result[UC2]=$((a+b*c))
 result[UC3]=$((a*b+c))
 result[UC4]=$(bc <<< "scale=4; $c+$a/$b ")
 result[UC5]=$((a%b+c))
+arrayIndex=0
+for key in ${!result[@]}
+do
+	resultArray[((arrayIndex++))]=${result[$key]}
+done
+echo ${resultArray[@]}
