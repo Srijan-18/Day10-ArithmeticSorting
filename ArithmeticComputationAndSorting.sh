@@ -19,7 +19,7 @@ for((i=0;i<arrayIndex-1;i++))
 do
 	for((j=0;j<arrayIndex-1-i;j++))
 	do
-		if [ ${resultArray[$j]} -lt ${resultArray[$j+1]} ]
+		if [ ${resultArray[$j]} -gt ${resultArray[$j+1]} ]
 		then
 			temp=${resultArray[$j]}
 			resultArray[$j]=${resultArray[$j+1]}
@@ -27,5 +27,5 @@ do
 		fi
 	done
 done
-
+echo ${resultArray[@]}
 
