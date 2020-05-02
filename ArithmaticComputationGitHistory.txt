@@ -1,3 +1,9 @@
+  473  git clone https://github.com/Srijan-18/Day10-ArithmeticSorting.git
+  474  git checkout -b master
+  475  git branch -d Srijan
+  476  git branch -a
+  477  git branch 
+  480  git checkout -b UC1Inputs
   483  git add ArithmeticComputationAndSorting.sh 
   484  git commit -m "Input from user taken in a, b & c"
   485  git init
@@ -80,4 +86,12 @@
   607  git commit -m "result printed in descending order"
   608  git push origin UC8
   609  git checkout master
-  
+  611  history | grep git
+  612  history | grep git | tail 100
+  613  history | grep git | tail -100
+  614  history | grep git | tail -86 > ArithmaticComputationGitHistory.txt
+  615  git add ArithmaticComputationGitHistory.txt 
+  617  git add ArithmaticComputationGitHistory.txt 
+  618  git commit -m "History of git actions regardin Arithmetic Computation and sorting added"
+  619  git push origin master
+  620  history | grep git | tail -100 > ArithmaticComputationGitHistory.txt
