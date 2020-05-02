@@ -1,0 +1,83 @@
+  483  git add ArithmeticComputationAndSorting.sh 
+  484  git commit -m "Input from user taken in a, b & c"
+  485  git init
+  486  git commit -m "Input from user taken in a, b & c"
+  491  git init
+  492  git add ArithmeticComputationAndSorting.sh 
+  493  git checkout -b UC1Inputs
+  494  git add ArithmeticComputationAndSorting.sh 
+  495  git commit -m "Inputs a,b and c taken from user"
+  496  git push origin UC1Inputs 
+  497  git checkout master
+  498  git checkout -b master
+  499  git checkout master
+  501  git push origin master
+  502  git push origin master
+  503  git checkout -b UC2Operation1
+  505  git add ArithmeticComputationAndSorting.sh 
+  506  git commit -m "UC2 done"
+  507  git push orign UC2Operation1 
+  508  git push origin UC2Operation1 
+  509  git checkout master
+  510  git merge UC2Operation1 
+  511  git push origin master
+  512  git checkout UC3Operation2
+  513  git checkout -b UC3Operation2
+  515  git add ArithmeticComputationAndSorting.sh 
+  516  git commit -m "UC3 done"
+  517  git push origin UC3
+  518  git push origin UC3Operation2 
+  519  git checkout master
+  520  git merge UC3Operation2 
+  521  git push master
+  522  git push origin master
+  523  git checkout -b UC4
+  526  git add ArithmeticComputationAndSorting.sh 
+  527  git commit -m "UC4 implemented"
+  528  git push origin UC4
+  529  git checkout master
+  530  git merge UC4
+  531  git push origin master
+  532  git checkout -b UC5
+  535  git add ArithmeticComputationAndSorting.sh 
+  536  git commit -m "UC5 implemented"
+  537  git push origin UC5
+  538  git checkout master
+  539  git merge UC5
+  540  git push origin master
+  541  git checkout -b UC6
+  546  git add ArithmeticComputationAndSorting.sh 
+  547  git commit -m "UC6 results stored in Dictionary"
+  548  git push origin UC6
+  549  git checkout master
+  550  git merge UC6 
+  551  git push origin master
+  552  git checkout -b UC7
+  559  git add ArithmeticComputationAndSorting.sh 
+  560  git commit -m "UC7 read values from dictionary into an array" 
+  561  git push origin UC7
+  562  git checkout master
+  563  git merge UC7
+  564  git push origin master
+  565  git checkout -b UC8
+  585  git add ArithmeticComputationAndSorting.sh 
+  586  git commit -m "UC8 array sorted in descending order"
+  587  git push origin UC8
+  588  git checkout master
+  589  git merge UC8
+  590  git push origin master
+  591  git checkout UC9 
+  592  git checkout -b UC9 
+  597  git add ArithmeticComputationAndSorting.sh 
+  598  git commit -m "UC9 Array arranged in ascending order"
+  599  git push UC9
+  600  git push origin UC9
+  601  git checkout master
+  602  git merge UC9
+  603  git push origin master
+  604  git checkout UC8
+  606  git add ArithmeticComputationAndSorting.sh 
+  607  git commit -m "result printed in descending order"
+  608  git push origin UC8
+  609  git checkout master
+  
