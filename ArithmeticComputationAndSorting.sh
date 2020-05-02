@@ -28,4 +28,4 @@ do
 	done
 done
 
-
+echo ${resultArray[@]}
